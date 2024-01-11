@@ -31,5 +31,3 @@ setup(
     },
     python_requires=">=3.9"
 )
-
-vrs_f.close()

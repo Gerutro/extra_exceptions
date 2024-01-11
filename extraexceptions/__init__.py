@@ -25,4 +25,5 @@ SOFTWARE.
 """
 
 from .logicalfallacies import *
+from .cognitivebiases import *
 from .ignoreexceptions import *
