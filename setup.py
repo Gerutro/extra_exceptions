@@ -3,7 +3,7 @@ from setuptools import setup
 
 def readme():
     with open("README.md", "r", encoding="utf-8") as rdm_f:
-        return rdm_f.read() and rdm_f.close()
+        return rdm_f.read()
 
 
 with open("VERSION.txt", "r", encoding="utf-8") as vrs_f:
