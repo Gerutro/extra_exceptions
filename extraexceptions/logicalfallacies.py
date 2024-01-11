@@ -7,9 +7,9 @@ class LogicBase(Exception):
 
     def __str__(self):
         if self.message:
-            return f'Logical fallacy "{self.message}" has been found'
+            return f'Logical fallacy "{self.__class__.__name__}" in "{self.message}" has been found'
         else:
-            return f'Logical fallacy has been raised'
+            return f'Logical fallacy {self.__class__.__name__} has been raised'
 
 
 class AdHominem(LogicBase):
