@@ -29,5 +29,5 @@ setup(
     project_urls={
         "GitHub": "https://github.com/Gerutro"
     },
-    python_requires=">=3.9"
+    python_requires=">=3.9",
 )
