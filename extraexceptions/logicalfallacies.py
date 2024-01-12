@@ -345,3 +345,6 @@ class TwoWrongsMakeARight(LogicBase):
 class VacuousTruth(LogicBase):
     def __init__(self, *args):
         super().__init__(*args)
+
+
+raise AdHominem("aboba", stop_code=True)
