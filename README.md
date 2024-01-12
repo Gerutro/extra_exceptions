@@ -1,6 +1,6 @@
 # Extra Exceptions
 Extra Exceptions - library for those who lack the usual python exceptions.  
- [Documentation](https://gitbook)
+Documentation will be soon...
 
 #### To install `pip install extraexceptions` 
 
