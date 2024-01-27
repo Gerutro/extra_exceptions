@@ -7,9 +7,9 @@ class LogicBase(Exception):
 
     def __str__(self):
         if self.message:
-            return f'Logical fallacy "{self.__class__.__name__}" in "{self.message}" has been found'
+            return f'"{self.__class__.__name__}" in "{self.message}" has been found'
         else:
-            return f'Logical fallacy {self.__class__.__name__} has been raised'
+            return f'Except {self.__class__.__name__} has been raised'
 
 
 class AdHominem(LogicBase):
@@ -347,4 +347,39 @@ class VacuousTruth(LogicBase):
         super().__init__(*args)
 
 
-raise AdHominem("aboba", stop_code=True)
+""" Other """
+
+
+class IncompleteFoundation(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class ThesisError(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class ArgumentError(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class IdentityError(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class Sophism(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class Contradiction(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+
+class ExcludedThird(LogicBase):
+    def __init__(self, *args):
+        super().__init__(*args)

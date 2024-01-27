@@ -9,13 +9,16 @@ Documentation will be soon...
 ----
 # Library give a new exceptions:
 
-### Logical Fallacies
+Logical Fallacies - new 74 excepts.  
+Cognitive Biases - new 56 excepts.  
+
+
 
 ----
-# also Dont Stop Code:
+# also Don't Stop Code:
 Library can catch exceptions and output only text with error, but if it will be, for example:
 ```python
-from extraexc import *
+from extraexceptions import *
 
 
 @ignore_exc_decorator
