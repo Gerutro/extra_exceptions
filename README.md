@@ -15,7 +15,7 @@ Cognitive Biases - new 56 excepts.
 
 
 ----
-# also Don't Stop Code:
+# Don't Stop Code Decorator:
 Library can catch exceptions and output only text with error, but if it will be, for example:
 ```python
 from extraexceptions import *

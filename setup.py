@@ -6,19 +6,15 @@ def readme():
         return rdm_f.read()
 
 
-with open("VERSION", "r", encoding="utf-8") as vrs_f:
-    VERSION = vrs_f.read()
-
-
 setup(
     name="extraexceptions",
-    version=VERSION,
+    version="0.0.0.4",
     author="Ger",
     author_email="gerutrogame@gmail.com",
     description="This is a lib for custom exceptions",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Gerutro/ExtraExceptions",
+    url="https://github.com/Gerutro/extra_exceptions",
     license="MIT License, see LICENCE file",
     packages=["extraexceptions"],
     classifiers=[
@@ -27,7 +23,7 @@ setup(
         'Operating System :: OS Independent'],
     keywords="extra exception lib library ",
     project_urls={
-        "GitHub": "https://github.com/Gerutro/extra_exceptions"
+        "GitHub": "https://github.com/Gerutro"
     },
     python_requires=">=3.9",
 )

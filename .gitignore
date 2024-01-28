@@ -5,7 +5,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-build_pack.bat
+make_release.bat
 # C extensions
 *.so
 
