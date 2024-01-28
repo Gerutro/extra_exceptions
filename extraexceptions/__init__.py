@@ -1,6 +1,6 @@
 """
 
-Extra Exceptions (ee) v.0.0.0.1
+Extra Exceptions (ee) v.0.0.0.4
 
 Copyright (c) 2024 Gerutro
 

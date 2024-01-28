@@ -6,7 +6,7 @@ def readme():
         return rdm_f.read()
 
 
-with open("VERSION.txt", "r", encoding="utf-8") as vrs_f:
+with open("VERSION", "r", encoding="utf-8") as vrs_f:
     VERSION = vrs_f.read()
 
 
@@ -27,7 +27,7 @@ setup(
         'Operating System :: OS Independent'],
     keywords="extra exception lib library ",
     project_urls={
-        "GitHub": "https://github.com/Gerutro"
+        "GitHub": "https://github.com/Gerutro/extra_exceptions"
     },
     python_requires=">=3.9",
 )
