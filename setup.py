@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="extraexceptions",
-    version="0.0.0.4",
+    version="0.0.0.5",
     author="Ger",
     author_email="gerutrogame@gmail.com",
     description="This is a lib for custom exceptions",
