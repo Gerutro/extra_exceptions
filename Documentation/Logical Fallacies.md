@@ -6,6 +6,8 @@
 
 <summary>a</summary>
 
+text
 
+some text
 
 </details>
