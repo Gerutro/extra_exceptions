@@ -187,11 +187,6 @@ class FallacyOfSingleCause(LogicBase):
         super().__init__(*args)
 
 
-class FallacyFallacy(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
 class GeneticFallacy(LogicBase):
     def __init__(self, *args):
         super().__init__(*args)
@@ -343,43 +338,5 @@ class TwoWrongsMakeARight(LogicBase):
 
 
 class VacuousTruth(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-""" Other """
-
-
-class IncompleteFoundation(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class ThesisError(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class ArgumentError(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class IdentityError(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class Sophism(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class Contradiction(LogicBase):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-
-class ExcludedThird(LogicBase):
     def __init__(self, *args):
         super().__init__(*args)

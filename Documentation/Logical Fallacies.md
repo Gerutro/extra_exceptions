@@ -58,7 +58,7 @@ extraexceptions.logicalfallacies.CherryPicking: "CherryPicking" in "Some text" h
 
 <summary>Logical Fallacies Info</summary>
 
-### **name of class - link to the article**
+## **NameOfClass - Link To The Article**
 
 AdHominem - [Ad Hominem](https://en.wikipedia.org/wiki/Ad_hominem)
 
