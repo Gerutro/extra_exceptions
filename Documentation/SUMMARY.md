@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Discription](README.md)
-* [Logical Fallacies](<Logical Fallacies.md>)
-* [Cognitive Biases](<README (1).md>)
+* [Discription](<Discription.md>)
+* [Logical Fallacies](<Logical%20Fallacies.md>)
+* [Cognitive Biases](<Cognitive%20Biases.md>)
