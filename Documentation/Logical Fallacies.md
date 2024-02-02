@@ -30,6 +30,8 @@ Traceback (most recent call last):
 extraexceptions.logicalfallacies.CherryPicking: Except CherryPicking has been raised
 ```
 
+---
+
 With added custom text:
 ```python
 import extraexceptions
@@ -49,6 +51,8 @@ Traceback (most recent call last):
     raise lf.CherryPicking("Some text")
 extraexceptions.logicalfallacies.CherryPicking: "CherryPicking" in "Some text" has been found
 ```
+
+---
 
 <details>
 
