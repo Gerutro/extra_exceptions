@@ -47,7 +47,7 @@ raise lf.CherryPicking("Some text")
 
 ```commandline
 Traceback (most recent call last):
-  File "PATH", line 6, in <module>
+  File "PATH", line 3, in <module>
     raise lf.CherryPicking("Some text")
 extraexceptions.logicalfallacies.CherryPicking: "CherryPicking" in "Some text" has been found
 ```
